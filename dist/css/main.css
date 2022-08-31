@@ -66,7 +66,11 @@ header .logo svg {
   }
   .newsletter-area {
     padding-top: 100px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .newsletter-area, .xs-bg {
+    background-color: #e4fafe;
   }
 }
 
@@ -95,8 +99,13 @@ header .logo svg {
   }
   .newsletter-area {
     padding-top: 150px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
   }
+
+  
+.newsletter-area, .xs-bg {
+  background-color: #e4fafe;
+}
 }
 
 @media (min-width: 575px) and (max-width: 767px) {
@@ -122,8 +131,12 @@ header .logo svg {
   }
   .newsletter-area {
     padding-top: 100px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
   }
+    
+.newsletter-area, .xs-bg {
+  background-color: #e4fafe;
+}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -219,4 +232,5 @@ img {
 body {
   position: relative;
 }
+
 /*# sourceMappingURL=main.css.map */

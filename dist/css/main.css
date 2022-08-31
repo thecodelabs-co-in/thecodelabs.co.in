@@ -142,6 +142,14 @@ header .logo svg {
 @media (min-width: 768px) and (max-width: 991px) {
   .main {
     background-image: none !important;
+    height: auto;
+  }
+  .newsletter-area, .xs-bg {
+    background-color: #e4fafe;
+  }
+  .newsletter-area {
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
   .has-line {
     text-align: center;
@@ -232,5 +240,10 @@ img {
 body {
   position: relative;
 }
-
+.newsletter-area{
+  text-align: center;
+}
+.img-logo{
+  width: 85%;;
+}
 /*# sourceMappingURL=main.css.map */

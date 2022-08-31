@@ -3,7 +3,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<link rel="icon" type="image/vnd.microsoft.icon" href="https://thecodelabs.co.in/content/img/favicon.ico">
+	<link rel="icon" type="image/vnd.microsoft.icon" href="https://thecodelabs.co.in/dist/img/favicon.ico">
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 	<title>Home</title>
 	<link rel="canonical" href="https://thecodelabs.co.in/" />
@@ -14,15 +14,36 @@
 	<meta property="og:url" content="https://thecodelabs.co.in/" />
 	<meta property="og:site_name" content="the code labs" />
 	<meta property="article:modified_time" content="2022-08-31T01:00:10+00:00" />
-	<style>
-	img {
-	  display: block;
-	  margin-left: auto;
-	  margin-right: auto;
-	}
-	</style>
+	 <!-- Bootstrap CSS Link -->
+	 <link rel="stylesheet" href="dist/css/vendor/bootstrap.min.css">
+
+	 <!-- Theme CSS Link -->
+	 <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
-<img src="content/img/LogoFull.svg" alt="the code labs" style="max-height:100%;"/>
+<section class="main" style="background-image: url(dist/img/bg.jpg);">
+	<!-- News Letter Starts Here -->
+	<section class="newsletter-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<a href="index.html">                       
+						<img src="dist/img/LogoFull.svg" alt="the code labs" class="img-fluid w-100"/>
+					</a>
+					<br>
+					<br>
+					<h4 class="text-center"><span class="text-light-blue">c</span>oming <span class="text-light-blue">s</span>oon<span class="text-light-blue">...</span></h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- News Letter Ends Here -->
+
+	<!-- Only Mobile View Starts Here -->
+	<section class="xs-bg d-md-none d-lg-none">
+		<img src="dist/img/xs.jpg" alt="img" class="img-fluid w-100">
+	</section>
+	<!-- Only Mobile View Ends Here -->
+</section>
 </body>
 </html>

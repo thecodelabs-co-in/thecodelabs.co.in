@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="The Code Labs - Transforming Ideas Into Intelligent Solutions">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#064163"/>
+      <stop offset="100%" stop-color="#078AA7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1060" cy="96" r="180" fill="#ffffff" opacity="0.08"/>
+  <circle cx="1120" cy="580" r="220" fill="#ffffff" opacity="0.08"/>
+  <g fill="#ffffff">
+    <text x="96" y="250" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800">The Code Labs</text>
+    <text x="96" y="320" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="500">
+      Transforming Ideas Into Intelligent Solutions
+    </text>
+    <text x="96" y="390" font-family="Inter, Arial, sans-serif" font-size="30" opacity="0.9">
+      Modern Web | Mobile | Software Development
+    </text>
+  </g>
+</svg>

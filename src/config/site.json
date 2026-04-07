@@ -1,0 +1,56 @@
+{
+  "seo": {
+    "title": "The Code Labs — Web & Software Development",
+    "description": "We are a software development company that turns ideas into digital products. We help your business grow with reliable, cost-effective web, mobile, and cloud solutions.",
+    "keywords": [
+      "web development",
+      "software development",
+      "mobile apps",
+      "UI UX design",
+      "cloud solutions",
+      "The Code Labs",
+      "India"
+    ]
+  },
+  "hero": {
+    "title": "Build products that move your business forward",
+    "subtitle": "From web and mobile apps to cloud-ready systems, we design and ship software that is clear, maintainable, and built for scale.",
+    "cta": "Contact Us"
+  },
+  "services": [
+    {
+      "title": "Web development",
+      "description": "Fast, responsive sites and web apps using modern stacks and clean architecture."
+    },
+    {
+      "title": "Mobile apps",
+      "description": "Cross-platform and native experiences focused on performance and usability."
+    },
+    {
+      "title": "UI / UX design",
+      "description": "Interfaces that communicate clearly and guide users toward their goals."
+    },
+    {
+      "title": "Cloud & DevOps",
+      "description": "Deployment, monitoring, and infrastructure so your product stays reliable."
+    }
+  ],
+  "about": {
+    "title": "Who we are",
+    "body": "The Code Labs is a small, focused team of developers and designers. We partner with startups and established businesses to plan, build, and iterate on software—without unnecessary complexity.",
+    "highlights": [
+      "Transparent communication and realistic timelines",
+      "Code you can hand off or extend with confidence",
+      "Security and performance considered from day one"
+    ]
+  },
+  "contact": {
+    "title": "Let’s talk",
+    "intro": "Tell us about your project. We’ll get back to you with next steps.",
+    "email": "hello@thecodelabs.co.in",
+    "website": "https://thecodelabs.co.in"
+  },
+  "footer": {
+    "tagline": "Software that fits your business."
+  }
+}

@@ -118,7 +118,7 @@ a:hover {
   font-size: clamp(2rem, 4vw, 2.75rem);
   line-height: 1.15;
   letter-spacing: -0.03em;
-  color: #0f172a;
+  color: var(--color-primary);
 }
 
 .hero-subtitle {
@@ -193,7 +193,7 @@ a:hover {
   margin: 0 0 0.5rem;
   font-size: clamp(1.5rem, 3vw, 2rem);
   letter-spacing: -0.02em;
-  color: #0f172a;
+  color: var(--color-primary);
 }
 
 .section-lead {

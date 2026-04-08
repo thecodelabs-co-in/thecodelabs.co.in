@@ -7,6 +7,8 @@
     "inject-seo": "node scripts/inject-seo.mjs",
     "predev": "node scripts/inject-seo.mjs",
     "prebuild": "node scripts/inject-seo.mjs",
+    "test": "node scripts/verify-seo.mjs",
+    "postbuild": "node scripts/verify-seo.mjs --dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"

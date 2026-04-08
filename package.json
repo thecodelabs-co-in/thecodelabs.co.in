@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "inject-seo": "node scripts/inject-seo.mjs",
+    "predev": "node scripts/inject-seo.mjs",
+    "prebuild": "node scripts/inject-seo.mjs",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"

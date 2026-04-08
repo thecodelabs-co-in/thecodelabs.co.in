@@ -10,47 +10,141 @@
       "cloud solutions",
       "The Code Labs",
       "India"
-    ]
+    ],
+    "canonicalUrl": "https://thecodelabs.co.in",
+    "ogImage": "https://thecodelabs.co.in/assets/img/LogoFull.svg"
   },
   "hero": {
-    "title": "Build products that move your business forward",
-    "subtitle": "From web and mobile apps to cloud-ready systems, we design and ship software that is clear, maintainable, and built for scale.",
-    "cta": "Contact Us"
+    "eyebrow": "Web · Mobile · Cloud",
+    "title": "Software crafted for clarity, speed, and growth",
+    "subtitle": "We design and build digital products your team can own—clean architecture, thoughtful UX, and delivery you can plan around.",
+    "cta": "Start a project",
+    "secondaryCta": "View our work",
+    "image": "https://thecodelabs.co.in/assets/img/illustration/hero-img.svg",
+    "imageAlt": "Abstract illustration representing product design and development",
+    "trust": ["Fixed-scope pilots", "Weekly demos", "Documentation included"]
   },
+  "stats": [
+    { "value": "50+", "label": "Products shipped" },
+    { "value": "8+", "label": "Years building" },
+    { "value": "24h", "label": "Typical response" },
+    { "value": "100%", "label": "Code you can extend" }
+  ],
   "services": [
     {
       "title": "Web development",
-      "description": "Fast, responsive sites and web apps using modern stacks and clean architecture."
+      "description": "Fast, responsive sites and web apps using modern stacks, accessible markup, and patterns that stay easy to change.",
+      "icon": "web"
     },
     {
       "title": "Mobile apps",
-      "description": "Cross-platform and native experiences focused on performance and usability."
+      "description": "Cross-platform and native experiences tuned for performance, offline resilience, and store-ready polish.",
+      "icon": "mobile"
     },
     {
       "title": "UI / UX design",
-      "description": "Interfaces that communicate clearly and guide users toward their goals."
+      "description": "Research-backed flows, crisp visual systems, and prototypes that reduce rework before a line of code ships.",
+      "icon": "design"
     },
     {
       "title": "Cloud & DevOps",
-      "description": "Deployment, monitoring, and infrastructure so your product stays reliable."
+      "description": "CI/CD, observability, and infrastructure as code so releases stay boring—in the best possible way.",
+      "icon": "cloud"
+    },
+    {
+      "title": "E-commerce",
+      "description": "Checkout flows, catalog UX, and integrations that convert—without locking you into a fragile theme stack.",
+      "icon": "cart"
+    },
+    {
+      "title": "SEO & performance",
+      "description": "Core Web Vitals, structured data, and pragmatic technical SEO so discovery and speed reinforce each other.",
+      "icon": "chart"
     }
   ],
+  "process": {
+    "title": "How we work",
+    "lead": "A simple rhythm that keeps risk visible and momentum high.",
+    "steps": [
+      {
+        "title": "Discover",
+        "body": "We align on outcomes, users, constraints, and success metrics before touching code."
+      },
+      {
+        "title": "Design",
+        "body": "Wireframes and UI that make decisions explicit—so engineering stays predictable."
+      },
+      {
+        "title": "Build",
+        "body": "Incremental delivery with reviews, tests where they matter, and docs your team can use."
+      },
+      {
+        "title": "Launch & learn",
+        "body": "We ship, measure, and iterate with a clear backlog—no mystery “phase two.”"
+      }
+    ]
+  },
+  "work": {
+    "title": "Selected work",
+    "lead": "A snapshot of the kinds of problems we love solving.",
+    "items": [
+      {
+        "title": "SaaS onboarding overhaul",
+        "category": "Web app",
+        "description": "Reduced time-to-value with guided setup, role-based defaults, and analytics on drop-off points.",
+        "image": "https://thecodelabs.co.in/assets/img/features/features-1.webp",
+        "imageAlt": "Product dashboard interface preview"
+      },
+      {
+        "title": "Commerce experience refresh",
+        "category": "E-commerce",
+        "description": "Faster product discovery, cleaner PDPs, and checkout tuned for mobile-first buyers.",
+        "image": "https://thecodelabs.co.in/assets/img/features/features-2.webp",
+        "imageAlt": "E-commerce storefront preview"
+      },
+      {
+        "title": "Field operations mobile suite",
+        "category": "Mobile",
+        "description": "Offline-first tasks, photo capture, and sync that teams could trust on low bandwidth.",
+        "image": "https://thecodelabs.co.in/assets/img/features/features-4.webp",
+        "imageAlt": "Mobile app screens preview"
+      }
+    ]
+  },
   "about": {
     "title": "Who we are",
-    "body": "The Code Labs is a small, focused team of developers and designers. We partner with startups and established businesses to plan, build, and iterate on software—without unnecessary complexity.",
+    "body": "The Code Labs is a focused engineering and design studio. We partner with founders and product teams who want software that feels inevitable—clear flows, solid fundamentals, and a roadmap that survives contact with reality.",
+    "image": "https://thecodelabs.co.in/assets/img/about/about-img.svg",
+    "imageAlt": "Team collaboration illustration",
     "highlights": [
-      "Transparent communication and realistic timelines",
-      "Code you can hand off or extend with confidence",
-      "Security and performance considered from day one"
+      "Senior-led delivery—you work with builders, not account layers",
+      "Security, accessibility, and performance treated as product features",
+      "Handoff-ready repos, runbooks, and lightweight ADRs when they help"
+    ]
+  },
+  "testimonials": {
+    "title": "What clients say",
+    "lead": "Trusted by teams who care about craft and communication.",
+    "items": [
+      {
+        "quote": "They shipped on time, explained trade-offs honestly, and left us with code we could actually maintain.",
+        "name": "Product lead",
+        "role": "B2B SaaS"
+      },
+      {
+        "quote": "Our mobile launch felt premium. Performance and UX were clearly not an afterthought.",
+        "name": "Founder",
+        "role": "Health tech startup"
+      }
     ]
   },
   "contact": {
-    "title": "Let’s talk",
-    "intro": "Tell us about your project. We’ll get back to you with next steps.",
+    "title": "Let’s build something great",
+    "intro": "Share a short note about your goals, timeline, and links. We’ll reply with honest next steps—whether we’re the right fit or not.",
     "email": "hello@thecodelabs.co.in",
     "website": "https://thecodelabs.co.in"
   },
   "footer": {
-    "tagline": "Software that fits your business."
+    "tagline": "Software that fits your business—and your team."
   }
 }

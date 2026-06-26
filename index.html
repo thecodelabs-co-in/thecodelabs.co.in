@@ -1,591 +1,790 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- SEO Meta Tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Code Labs - Web Development Company</title>
-    <meta name="description" content="We are a software development company who transforms ideas into digital reality. We can help you in the growth of your business by delivering our exceptional and cost-effective services.">
-    <meta name="keywords" content="web development, mobile apps, e-commerce, SEO optimization, UI/UX design, cloud solutions, web development company">
-    <meta name="author" content="The Code Labs">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Code Labs — Software Development & IT Outsourcing</title>
+<meta name="description" content="The Code Labs builds custom software, web apps, mobile apps, and digital products that scale with your business. Based in Ahmedabad, serving clients across India and internationally.">
+<meta name="keywords" content="software development, web development, mobile app development, IT outsourcing, custom software, UI UX design, Ahmedabad, India, The Code Labs">
+<meta name="author" content="The Code Labs">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://thecodelabs.co.in/">
 
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Code Labs — Software Development & IT Outsourcing">
+<meta property="og:description" content="We build software and digital products that bring your ideas to life — helping businesses innovate, scale, and reach measurable results.">
+<meta property="og:url" content="https://thecodelabs.co.in/">
+<meta property="og:site_name" content="The Code Labs">
+<meta property="og:image" content="https://thecodelabs.co.in/img/Logo.svg">
+<meta property="og:locale" content="en_IN">
 
-    <!-- Open Graph Tags for Social Media -->
-    <meta property="og:title" content="The Code Labs - Web Development Company">
-    <meta property="og:description" content="We are a software development company who transforms ideas into digital reality. We can help you in the growth of your business by delivering our exceptional and cost-effective services.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://thecodelabs.co.in">
-    <meta property="og:image" content="https://thecodelabs.co.in/assets/img/LogoFull.svg">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Code Labs — Software Development & IT Outsourcing">
+<meta name="twitter:description" content="Custom software, web & mobile apps built with technical depth and a transparent, collaborative process.">
+<meta name="twitter:image" content="https://thecodelabs.co.in/img/Logo.svg">
 
-    <!-- Twitter Card Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="The Code Labs - Web Development Company">
-    <meta name="twitter:description" content="We are a software development company who transforms ideas into digital reality. We can help you in the growth of your business by delivering our exceptional and cost-effective services.">
-    <meta name="twitter:image" content="https://thecodelabs.co.in/assets/img/LogoFull.svg">
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "The Code Labs",
+  "url": "https://thecodelabs.co.in",
+  "logo": "https://thecodelabs.co.in/img/Logo.svg",
+  "description": "Software development and IT outsourcing company specializing in web development, mobile apps, UI/UX design, and system integration.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "512 Sukhsagar Complex, Nr. Fortune Landmark Hotel, Usmanpura",
+    "addressLocality": "Ahmedabad",
+    "addressRegion": "Gujarat",
+    "postalCode": "380013",
+    "addressCountry": "IN"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-932-765-2938",
+    "email": "info@thecodelabs.co.in",
+    "contactType": "sales"
+  },
+  "sameAs": []
+}
+</script>
 
-    <meta name="google-site-verification" content="OM06mQVjyFVzLJ1ZfmJx-mwPvqWKCmokAaPDjTowH-4" />
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://thecodelabs.co.in">
-
-    <!-- Favicons -->
-    <link href="assets/img/favicon.ico" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Questrial:wght@400&display=swap"
-          rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-    <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet">
-    <!-- Structured Data (JSON-LD) -->
-    <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          "name": "The Code Labs - Web Development Company",
-          "url": "https://thecodelabs.co.in",
-          "logo": "https://thecodelabs.co.in/assets/img/LogoFull.svg",
-          "description": "Web Development Company specializing in custom websites, mobile apps, and e-commerce solutions.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "512, Sukhsagar Complex, 18, Ashram Rd, Near Fortune Land Mark Hotel",
-            "addressLocality": "Ahmedabad",
-            "addressRegion": "Gujarat",
-            "postalCode": "380013",
-            "addressCountry": "IN"
-          },
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "email": "info@thecodelabs.co.in",
-            "contactType": "customer service"
-          },
-          "sameAs": []
-        }
-    </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
+<body>
 
-<body class="index-page">
-
-    <header id="header" class="header d-flex align-items-center fixed-top">
-        <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-            <a href="index.html" class="logo d-flex align-items-center">
-                <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img src="assets/img/Logo.png" alt="The Code Labs">
-                <!-- <h1 class="sitename">The Code Labs</h1> -->
-            </a>
-
-            <nav id="navmenu" class="navmenu">
-                <ul>
-                    <li><a href="#hero" class="active">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <!-- <li><a href="#portfolio">Portfolio</a></li> -->
-                    <!-- <li><a href="#team">Team</a></li> -->
-                    <li><a href="#contact">Contact Us</a></li>
-
-                </ul>
-                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-            </nav>
-
-        </div>
-    </header>
-
-    <main class="main">
-
-        <!-- Hero Section -->
-        <section id="hero" class="hero section">
-
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="hero-content">
-                            <h1>Transforming Ideas Into <br><span> Intelligent Solutions</span></h1>
-                            <p>
-                                Delivering intelligent software and digital solutions that bring your ideas to life, helping businesses
-                                innovate, scale, and achieve measurable results.
-                            </p>
-                            <div class="hero-actions justify-content-center justify-content-lg-start">
-                                <a href="#services" class="btn-primary scrollto">Start Journey</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="hero-image">
-                            <img src="assets/img/illustration/hero-img.svg" class="img-fluid floating" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section><!-- /Hero Section -->
-        <!-- About Section -->
-        <section id="about" class="about section">
-
-            <div class="container">
-
-                <div class="row align-items-center">
-
-                    <!-- Image Column -->
-                    <div class="col-lg-6">
-                        <div class="about-image">
-                            <img src="assets/img/about/about-img.svg" alt="About" class="img-fluid">
-                        </div>
-                    </div>
-
-                    <!-- Content Column -->
-                    <div class="col-lg-6">
-                        <div class="content">
-                            <h2>About Us</h2>
-                            <!-- <p class="lead">Crafting Excellence Through Innovation and Dedication</p> -->
-                            <p>
-                                At <b>The Code Labs</b>, we specialize in custom software development and IT outsourcing services. Our
-                                team crafts tailored software solutions for individuals, startups, and small to medium-sized businesses,
-                                ensuring each project aligns perfectly with our clients’ goals.
-                            </p>
-                            <p>
-                                With years of experience, we understand that every business operates within a unique software and
-                                technology ecosystem. That’s why we offer a comprehensive range of development services, leveraging the
-                                latest technologies to deliver solutions that are efficient, scalable, and impactful.
-                            </p>
-                            <!-- Stats Row -->
-                            <div class="stats-row">
-                                <div class="stat-item">
-                                    <h3>
-                                        <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1"
-                                              class="purecounter"></span>+
-                                    </h3>
-                                    <p>Projects Completed</p>
-                                </div>
-                                <div class="stat-item">
-                                    <h3>
-                                        <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
-                                              class="purecounter"></span>+
-                                    </h3>
-                                    <p>Years Experience</p>
-                                </div>
-                                <div class="stat-item">
-                                    <h3>
-                                        <span data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="1"
-                                              class="purecounter"></span>%
-                                    </h3>
-                                    <p>Client Satisfaction</p>
-                                </div>
-                            </div><!-- End Stats Row -->
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section><!-- /About Section -->
-        <!-- How We Work Section -->
-        <section id="how-we-work" class="how-we-work section inverted-section">
-
-            <!-- Section Title -->
-            <div class="container section-title">
-                <h2>How We Work</h2>
-                <p>From Concept to Completion with Precision and Care</p>
-            </div><!-- End Section Title -->
-
-            <div class="container">
-
-                <div class="steps-wrapper">
-
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6">
-                            <div class="step-item">
-                                <div class="step-circle">
-                                    <span>1</span>
-                                </div>
-                                <h3>Discovery</h3>
-                                <p>
-                                    Understanding your business goals and requirements through in-depth analysis and consultation
-                                    sessions.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6">
-                            <div class="step-item">
-                                <div class="step-circle">
-                                    <span>2</span>
-                                </div>
-                                <h3>Planning</h3>
-                                <p>
-                                    Creating detailed project roadmaps and strategies aligned with your objectives and timeline
-                                    requirements.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6">
-                            <div class="step-item">
-                                <div class="step-circle">
-                                    <span>3</span>
-                                </div>
-                                <h3>Execution</h3>
-                                <p>Implementing solutions effectively while ensuring transparency and communication in every stage.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6">
-                            <div class="step-item">
-                                <div class="step-circle">
-                                    <span>4</span>
-                                </div>
-                                <h3>Delivery</h3>
-                                <p>Finalizing implementations and providing comprehensive support to ensure long-term success.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section><!-- /How We Work Section -->
-        <!-- Services Section -->
-        <section id="services" class="services section">
-
-            <!-- Section Title -->
-            <div class="container section-title">
-                <h2>Services</h2>
-                <p>Comprehensive Solutions for Your Digital Success</p>
-            </div><!-- End Section Title -->
-
-            <div class="container">
-
-                <div class="row gy-4">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="bi bi-code-slash"></i>
-                            </div>
-                            <h3>Web Development</h3>
-                            <p>Building responsive, secure, and scalable web applications that drive business growth.</p>
-                        </div>
-                    </div><!-- End Service Card -->
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="bi bi-graph-up-arrow"></i>
-                            </div>
-                            <h3>UI/UX Designing</h3>
-                            <p>Creating engaging digital experiences through smart and user-focused design.</p>
-                        </div>
-                    </div><!-- End Service Card -->
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="bi bi-phone"></i>
-                            </div>
-                            <h3>Mobile App Development</h3>
-                            <p>Delivering custom apps that combine design, functionality, and performance.</p>
-                        </div>
-                    </div><!-- End Service Card -->
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="bi bi-megaphone"></i>
-                            </div>
-                            <h3>Content Management System</h3>
-                            <p>Simplifying content management with intuitive and scalable solutions.</p>
-                        </div>
-                    </div><!-- End Service Card -->
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="bi bi-shield-check"></i>
-                            </div>
-                            <h3>Security Solutions</h3>
-                            <p>Protecting your business with robust and reliable security solutions.</p>
-                        </div>
-                    </div><!-- End Service Card -->
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-card">
-                            <div class="service-icon">
-                                <i class="bi bi-gear-wide-connected"></i>
-                            </div>
-                            <h3>System Integration and Designing</h3>
-                            <p>Delivering integrated solutions that enhance efficiency and collaboration.</p>
-                        </div>
-                    </div><!-- End Service Card -->
-
-                </div>
-
-            </div>
-
-        </section><!-- /Services Section -->
-        <!-- Clients Section -->
-        <!-- /Clients Section -->
-        <!-- Contact Section -->
-        <section id="contact" class="contact section">
-            <!-- Section Title -->
-            <div class="container section-title">
-                <h2>Contact Us</h2>
-                <p>Get in Touch and Start Your Digital Journey</p>
-            </div><!-- End Section Title -->
-
-            <div class="container">
-                <div class="row align-items-stretch">
-                    <div class="col-lg-7 order-lg-1 order-2">
-                        <div class="contact-form-container">
-                            <div class="form-intro">
-                                <h2>Let's Start a Conversation</h2>
-                            </div>
-
-                            <form action="" method="post" class="php-email-form contact-form">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-field">
-                                            <input type="text" name="name" class="form-input" id="userName" placeholder="Your Name"
-                                                   required="" autocomplete="true">
-                                            <label for="userName" class="field-label">Name</label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-6">
-                                        <div class="form-field">
-                                            <input type="email" class="form-input" name="email" id="userEmail" placeholder="Your Email"
-                                                   required="" autocomplete="true">
-                                            <label for="userEmail" class="field-label">Email</label>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-field message-field">
-                                    <textarea class="form-input message-input" name="message" id="userMessage" rows="5"
-                                              placeholder="Tell us about your project" required=""></textarea>
-                                    <label for="userMessage" class="field-label">Message</label>
-                                </div>
-
-                                <div class="my-3">
-                                    <div class="loading">Loading</div>
-                                    <div class="error-message"></div>
-                                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                                </div>
-
-                                <button type="submit" class="send-button">
-                                    Send Message
-                                    <span class="button-arrow">→</span>
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5 order-lg-2 order-1">
-                        <div class="contact-sidebar">
-                            <div class="contact-header">
-                                <h3>Get in Touch</h3>
-                            </div>
-
-                            <div class="contact-methods">
-                                <div class="contact-method">
-                                    <div class="contact-icon">
-                                        <i class="bi bi-geo-alt"></i>
-                                    </div>
-                                    <div class="contact-details">
-                                        <span class="method-label">Address</span>
-                                        <p>512 Sukhsagar Complex, Nr. Fortune Landmark Hotel, <br>Usmanpura, Ahmedabad, Gujarat 380013</p>
-                                    </div>
-                                </div>
-
-                                <div class="contact-method">
-                                    <div class="contact-icon">
-                                        <i class="bi bi-envelope"></i>
-                                    </div>
-                                    <div class="contact-details">
-                                        <span class="method-label">Email</span>
-                                        <p>info@thecodelabs.co.in</p>
-                                    </div>
-                                </div>
-
-                                <div class="contact-method">
-                                    <div class="contact-icon">
-                                        <i class="bi bi-telephone"></i>
-                                    </div>
-                                    <div class="contact-details">
-                                        <span class="method-label">Phone</span>
-                                        <p>+91 (932) 745-2938</p>
-                                    </div>
-                                </div>
-
-                                <div class="contact-method">
-                                    <div class="contact-icon">
-                                        <i class="bi bi-clock"></i>
-                                    </div>
-                                    <div class="contact-details">
-                                        <span class="method-label">Hours</span>
-                                        <p>Monday - Friday: 10AM - 8PM<br>Saturday: 10AM - 3PM</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--
-                            <div class="connect-section">
-                              <span class="connect-label">Connect with us</span>
-                              <div class="social-links">
-                                <a href="#" class="social-link">
-                                  <i class="bi bi-linkedin"></i>
-                                </a>
-                                <a href="#" class="social-link">
-                                  <i class="bi bi-twitter-x"></i>
-                                </a>
-                                <a href="#" class="social-link">
-                                  <i class="bi bi-instagram"></i>
-                                </a>
-                                <a href="#" class="social-link">
-                                  <i class="bi bi-facebook"></i>
-                                </a>
-                              </div>
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!-- /Contact Section -->
-
-    </main>
-
-    <footer id="footer" class="footer position-relative light-background">
-
-        <div class="container">
-            <div class="row gy-5">
-
-                <div class="col-lg-3 d-flex align-items-center ">
-                    <div class="footer-content">
-                        <a href="index.html" class="logo mb-4">
-                            <!-- <span class="sitename">The Code Labs</span> -->
-                            <img src="assets/img/LogoFull.png" alt="The Code Labs">
-                        </a>
-                        <p class="mb-4">Transforming Ideas Into Intelligent Solutions</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-6">
-                    <div class="footer-links">
-                        <h4>Services</h4>
-                        <ul>
-                            <li><a href="#services"><i class="bi bi-chevron-right"></i> Web Development</a></li>
-                            <li><a href="#services"><i class="bi bi-chevron-right"></i> UI/UX Designing</a></li>
-                            <li><a href="#services"><i class="bi bi-chevron-right"></i> Mobile App Development</a></li>
-                            <li><a href="#services"><i class="bi bi-chevron-right"></i> Content Management System</a></li>
-                            <li><a href="#services"><i class="bi bi-chevron-right"></i> Security Solutions</a></li>
-                            <li><a href="#services"><i class="bi bi-chevron-right"></i> System Integration and Designing</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-6">
-                    <div class="footer-links">
-                        <h4>Industries We Serve</h4>
-                        <ul>
-                            <li><a><i class="bi bi-chevron-right"></i> Engineering </a></li>
-                            <li><a><i class="bi bi-chevron-right"></i> Insurance </a></li>
-                            <li><a><i class="bi bi-chevron-right"></i> Education </a></li>
-                            <li><a><i class="bi bi-chevron-right"></i> Construction </a></li>
-                            <li><a><i class="bi bi-chevron-right"></i> Manufacturing </a></li>
-                            <li><a><i class="bi bi-chevron-right"></i> Technology </a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-6">
-                    <div class="footer-contact">
-                        <h4>Get in Touch</h4>
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="bi bi-geo-alt"></i>
-                            </div>
-                            <div class="contact-info">
-                                <p>
-                                    512 Sukhsagar Complex, <br>Nr. Fortune Landmark Hotel, <br>Usmanpura, Ahmedabad,<br> Gujarat 380013
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="bi bi-envelope"></i>
-                            </div>
-                            <div class="contact-info py-05">
-                                <p>info@thecodelabs.co.in</p>
-                            </div>
-                        </div>
-
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <i class="bi bi-telephone"></i>
-                            </div>
-                            <div class="contact-info py-05">
-                                <p>+91 (932) 765-2938</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="copyright">
-                            <p>
-                                <span>Copyright</span> © 2025<strong class="px-1 sitename">The Code Labs</strong> <span>
-                                    All Rights
-                                    Reserved
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="credits">
-                            Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </footer>
-
-    <!-- Scroll Top -->
-    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
-        <i class="bi bi-arrow-up-short"></i>
+<!-- NAV -->
+<header id="navbar">
+  <div class="wrap nav-inner">
+    <a href="#" class="logo">
+      <img src="img/Logo-white.svg" alt="The Code Labs logo">
+      <span class="logo-name gilroy">the <span>code</span> labs</span>
     </a>
+    <nav><ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul></nav>
+    <a href="#contact" class="nav-cta">Start a project</a>
+    <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
 
-    <!-- Preloader -->
-    <div id="preloader"></div>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+  <div class="hero-dots"></div><div class="hero-shimmer"></div><div class="hero-orb"></div>
+  <svg class="section-circuit hero-circuit" viewBox="0 0 1200 700" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <!-- Left spine flowing down to about -->
+    <path d="M96 200 V700" stroke="#078AA7" stroke-width="1.2" opacity=".12" stroke-linecap="round"/>
+    <path d="M96 200 H200" stroke="#078AA7" stroke-width="1" opacity=".18" stroke-linecap="round"/>
+    <path d="M96 400 H180 V500" stroke="#078AA7" stroke-width=".8" opacity=".1" stroke-linecap="round"/>
+    <path class="df" d="M96 200 V700" stroke="#4dd4ea" stroke-width=".8" opacity=".15" stroke-linecap="round"/>
+    <circle cx="96" cy="200" r="4" fill="#040e1a" stroke="#078AA7" stroke-width="1.2" opacity=".3" class="nb"/>
+    <circle cx="200" cy="200" r="3" fill="rgba(7,138,167,0.1)" stroke="#078AA7" stroke-width="1" opacity=".25" class="nb3"/>
+    <circle cx="96" cy="400" r="3" fill="#040e1a" stroke="#078AA7" stroke-width="1" opacity=".2" class="nb2"/>
+    <circle cx="180" cy="500" r="3" fill="rgba(7,138,167,0.08)" stroke="#078AA7" stroke-width=".8" opacity=".15" class="nb"/>
+    <!-- Right spine flowing down -->
+    <path d="M1104 150 V700" stroke="#078AA7" stroke-width="1.2" opacity=".1" stroke-linecap="round"/>
+    <path d="M1104 150 H1000" stroke="#078AA7" stroke-width="1" opacity=".15" stroke-linecap="round"/>
+    <path d="M1104 350 H1020 V480" stroke="#078AA7" stroke-width=".8" opacity=".08" stroke-linecap="round"/>
+    <path class="df df2" d="M1104 150 V700" stroke="#4dd4ea" stroke-width=".8" opacity=".1" stroke-linecap="round"/>
+    <circle cx="1104" cy="150" r="4" fill="#040e1a" stroke="#078AA7" stroke-width="1.2" opacity=".25" class="nb2"/>
+    <circle cx="1000" cy="150" r="3" fill="rgba(7,138,167,0.1)" stroke="#078AA7" stroke-width="1" opacity=".2" class="nb"/>
+    <circle cx="1104" cy="350" r="3" fill="#040e1a" stroke="#078AA7" stroke-width="1" opacity=".18" class="nb3"/>
+    <!-- Small chips near edges -->
+    <rect x="170" y="194" width="20" height="10" rx="2" fill="#040e1a" stroke="rgba(7,138,167,0.3)" stroke-width=".8" opacity=".3"/>
+    <rect x="990" y="144" width="20" height="10" rx="2" fill="#040e1a" stroke="rgba(7,138,167,0.25)" stroke-width=".8" opacity=".25"/>
+  </svg>
+  <div class="hero-inner">
+    <div>
+      <div class="hero-eyebrow"><span class="hero-eyebrow-line"></span>Software development &amp; IT outsourcing</div>
+      <h1 class="hero-h1" id="heroTyping"></h1>
+      <p class="hero-sub">We build software and digital products that bring your ideas to life — helping businesses innovate, scale, and reach measurable results.</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-primary">Start your journey &rarr;</a>
+        <a href="#process" class="btn-ghost">How we work</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><div class="n">50<em>+</em></div><div class="l">Projects completed</div></div>
+        <div class="hero-stat"><div class="n">5<em>+</em></div><div class="l">Years experience</div></div>
+        <div class="hero-stat"><div class="n">98<em>%</em></div><div class="l">Client satisfaction</div></div>
+        <div class="hero-stat"><div class="n">24<em>/7</em></div><div class="l">Support &amp; care</div></div>
+      </div>
+    </div>
+    <div class="circuit-wrap" aria-hidden="true">
+      <svg viewBox="0 0 420 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+        </defs>
+        <path class="trace t1" d="M90 160 H160 V100 H280" stroke="#078AA7" stroke-width="1.5" stroke-linecap="round"/>
+        <path class="trace t2" d="M90 160 H140 V220 H300" stroke="#064163" stroke-width="1.5" stroke-linecap="round"/>
+        <path class="trace t3" d="M160 100 V50 H280" stroke="#078AA7" stroke-width="1" stroke-linecap="round" opacity=".55"/>
+        <path class="trace t4" d="M140 220 V270 H260" stroke="#064163" stroke-width="1" stroke-linecap="round" opacity=".45"/>
+        <path class="trace t5" d="M280 100 H360 V160 H330" stroke="#078AA7" stroke-width="1" stroke-linecap="round" opacity=".5"/>
+        <path class="trace t6" d="M260 270 H350 V230" stroke="#064163" stroke-width="1" stroke-linecap="round" opacity=".4"/>
+        <path class="trace t7" d="M90 160 V80 H50 V240 H90" stroke="#078AA7" stroke-width="1" stroke-linecap="round" opacity=".28"/>
+        <path class="df" d="M90 160 H160 V100 H280" stroke="#4dd4ea" stroke-width="1.2" stroke-linecap="round" opacity=".55"/>
+        <path class="df df2" d="M90 160 H140 V220 H300" stroke="#4dd4ea" stroke-width="1" stroke-linecap="round" opacity=".35"/>
+        <g class="cp">
+          <rect x="52" y="128" width="72" height="64" rx="6" fill="#040e1a" stroke="#078AA7" stroke-width="1.5"/>
+          <rect x="60" y="136" width="56" height="48" rx="4" fill="rgba(7,138,167,0.1)"/>
+          <line x1="70" y1="128" x2="70" y2="118" stroke="#078AA7" stroke-width="1.3"/>
+          <line x1="82" y1="128" x2="82" y2="118" stroke="#078AA7" stroke-width="1.3"/>
+          <line x1="94" y1="128" x2="94" y2="118" stroke="#078AA7" stroke-width="1.3"/>
+          <line x1="106" y1="128" x2="106" y2="118" stroke="#078AA7" stroke-width="1.3"/>
+          <line x1="70" y1="192" x2="70" y2="202" stroke="#078AA7" stroke-width="1.3"/>
+          <line x1="82" y1="192" x2="82" y2="202" stroke="#078AA7" stroke-width="1.3"/>
+          <line x1="94" y1="192" x2="94" y2="202" stroke="#078AA7" stroke-width="1.3"/>
+          <line x1="106" y1="192" x2="106" y2="202" stroke="#078AA7" stroke-width="1.3"/>
+          <line x1="52" y1="142" x2="42" y2="142" stroke="#078AA7" stroke-width="1.3"/>
+          <line x1="52" y1="156" x2="42" y2="156" stroke="#078AA7" stroke-width="1.3"/>
+          <line x1="52" y1="170" x2="42" y2="170" stroke="#078AA7" stroke-width="1.3"/>
+          <line x1="124" y1="142" x2="134" y2="142" stroke="#078AA7" stroke-width="1.3"/>
+          <line x1="124" y1="156" x2="134" y2="156" stroke="#078AA7" stroke-width="1.3"/>
+          <line x1="124" y1="170" x2="134" y2="170" stroke="#078AA7" stroke-width="1.3"/>
+          <text x="88" y="162" text-anchor="middle" dominant-baseline="middle" font-family="IBM Plex Mono" font-size="9" fill="#4dd4ea" letter-spacing="1.5">TCL</text>
+          <text x="88" y="174" text-anchor="middle" dominant-baseline="middle" font-family="IBM Plex Mono" font-size="6" fill="rgba(77,212,234,0.5)">v2.4</text>
+        </g>
+        <circle cx="160" cy="100" r="5" fill="#040e1a" stroke="#078AA7" stroke-width="1.5" filter="url(#glow)" class="nb"/>
+        <circle cx="140" cy="220" r="5" fill="#040e1a" stroke="#078AA7" stroke-width="1.5" filter="url(#glow)" class="nb2"/>
+        <circle cx="280" cy="100" r="6" fill="rgba(7,138,167,0.15)" stroke="#078AA7" stroke-width="1.5" filter="url(#glow)" class="nb3"/>
+        <circle cx="300" cy="220" r="6" fill="rgba(7,138,167,0.15)" stroke="#078AA7" stroke-width="1.5" filter="url(#glow)" class="nb"/>
+        <circle cx="280" cy="100" r="12" fill="rgba(7,138,167,0.07)" class="nb3"/>
+        <rect x="270" y="42" width="28" height="10" rx="3" fill="#081e2e" stroke="rgba(7,138,167,0.45)" stroke-width="1"/>
+        <rect x="340" y="154" width="10" height="24" rx="3" fill="#081e2e" stroke="rgba(7,138,167,0.4)" stroke-width="1"/>
+        <rect x="244" y="264" width="22" height="9" rx="3" fill="#081e2e" stroke="rgba(7,138,167,0.38)" stroke-width="1"/>
+        <text x="280" y="95" text-anchor="middle" font-family="IBM Plex Mono" font-size="7" fill="rgba(7,138,167,0.7)">VCC</text>
+        <text x="300" y="228" text-anchor="middle" font-family="IBM Plex Mono" font-size="7" fill="rgba(7,138,167,0.6)">GND</text>
+      </svg>
+    </div>
+  </div>
+</section>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<!-- ABOUT -->
+<section class="about" id="about">
+  <svg class="section-circuit" viewBox="0 0 1200 600" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <!-- Left spine continuous from hero -->
+    <path d="M96 0 V150 H200 V600" stroke="#078AA7" stroke-width="1" opacity=".07" stroke-linecap="round"/>
+    <path class="df" d="M96 0 V150 H200 V600" stroke="#078AA7" stroke-width=".8" opacity=".09" stroke-linecap="round"/>
+    <path d="M200 300 H300" stroke="#078AA7" stroke-width=".8" opacity=".06" stroke-linecap="round"/>
+    <!-- Right spine continuous from hero -->
+    <path d="M1104 0 V180 H1020 V600" stroke="#078AA7" stroke-width="1" opacity=".06" stroke-linecap="round"/>
+    <path class="df df2" d="M1104 0 V180 H1020 V600" stroke="#078AA7" stroke-width=".8" opacity=".07" stroke-linecap="round"/>
+    <path d="M1020 350 H940" stroke="#078AA7" stroke-width=".8" opacity=".05" stroke-linecap="round"/>
+    <!-- Junction nodes -->
+    <circle cx="96" cy="150" r="3" fill="none" stroke="#078AA7" stroke-width="1" opacity=".12" class="nb"/>
+    <circle cx="200" cy="150" r="3" fill="rgba(7,138,167,0.04)" stroke="#078AA7" stroke-width=".8" opacity=".1" class="nb3"/>
+    <circle cx="200" cy="300" r="2.5" fill="none" stroke="#078AA7" stroke-width=".8" opacity=".08" class="nb2"/>
+    <circle cx="1104" cy="180" r="3" fill="none" stroke="#078AA7" stroke-width="1" opacity=".1" class="nb2"/>
+    <circle cx="1020" cy="180" r="3" fill="rgba(7,138,167,0.04)" stroke="#078AA7" stroke-width=".8" opacity=".08" class="nb"/>
+    <circle cx="1020" cy="350" r="2.5" fill="none" stroke="#078AA7" stroke-width=".8" opacity=".06" class="nb3"/>
+    <rect x="280" y="296" width="16" height="8" rx="2" fill="none" stroke="rgba(7,138,167,0.06)" stroke-width=".6"/>
+  </svg>
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="reveal">
+        <div class="sec-eyebrow">About us</div>
+        <h2 class="sec-h">We turn complex problems<br>into elegant software.</h2>
+        <p class="sec-sub">At The Code Labs, we craft tailored digital products that scale with your business — combining technical depth with a transparent, collaborative process.</p>
+        <ul class="about-checklist">
+          <li><span class="check-ic"><i class="fa-solid fa-check" style="font-size:9px"></i></span>Solutions tailored to your exact requirements and business context</li>
+          <li><span class="check-ic"><i class="fa-solid fa-check" style="font-size:9px"></i></span>Efficient, scalable architectures built on current technologies</li>
+          <li><span class="check-ic"><i class="fa-solid fa-check" style="font-size:9px"></i></span>Transparent process — you always know where things stand</li>
+          <li><span class="check-ic"><i class="fa-solid fa-check" style="font-size:9px"></i></span>Ongoing support and care after every project delivery</li>
+        </ul>
+      </div>
+      <div class="about-cards">
+        <div class="acard light reveal rd1">
+          <h3>Built to grow with you</h3>
+          <p>Scalable architecture designed to evolve as your product grows — no rebuilds, no blockers.</p>
+        </div>
+        <div class="acard dark reveal rd2">
+          <h3>Always in your corner</h3>
+          <p>24/7 support so you stay focused on your business, not your tech stack.</p>
+        </div>
+        <div class="acard light reveal rd3">
+          <h3>Fully transparent process</h3>
+          <p>Regular updates, clear milestones, and open communication at every stage.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
+<!-- TESTIMONIALS -->
+<section class="testimonials-full" id="testimonials">
+  <svg class="section-circuit" viewBox="0 0 1200 400" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <!-- Left spine from about (200) shifting to 320 for services -->
+    <path d="M200 0 V120 H320 V400" stroke="#078AA7" stroke-width="1" opacity=".1" stroke-linecap="round"/>
+    <path class="df" d="M200 0 V120 H320 V400" stroke="#4dd4ea" stroke-width=".8" opacity=".12" stroke-linecap="round"/>
+    <path d="M320 250 H400" stroke="#078AA7" stroke-width=".8" opacity=".08" stroke-linecap="round"/>
+    <!-- Right spine from about (1020) shifting to 900 for services -->
+    <path d="M1020 0 V140 H900 V400" stroke="#078AA7" stroke-width="1" opacity=".08" stroke-linecap="round"/>
+    <path class="df df2" d="M1020 0 V140 H900 V400" stroke="#4dd4ea" stroke-width=".8" opacity=".1" stroke-linecap="round"/>
+    <path d="M900 280 H820" stroke="#078AA7" stroke-width=".8" opacity=".06" stroke-linecap="round"/>
+    <!-- Junction nodes -->
+    <circle cx="200" cy="120" r="3" fill="#040e1a" stroke="#078AA7" stroke-width="1" opacity=".2" class="nb"/>
+    <circle cx="320" cy="120" r="3" fill="#040e1a" stroke="#078AA7" stroke-width="1" opacity=".18" class="nb3"/>
+    <circle cx="320" cy="250" r="2.5" fill="rgba(7,138,167,0.06)" stroke="#078AA7" stroke-width=".8" opacity=".15" class="nb2"/>
+    <circle cx="1020" cy="140" r="3" fill="#040e1a" stroke="#078AA7" stroke-width="1" opacity=".18" class="nb2"/>
+    <circle cx="900" cy="140" r="3" fill="#040e1a" stroke="#078AA7" stroke-width="1" opacity=".15" class="nb"/>
+    <circle cx="900" cy="280" r="2.5" fill="rgba(7,138,167,0.06)" stroke="#078AA7" stroke-width=".8" opacity=".12" class="nb3"/>
+  </svg>
+  <div class="tf-inner">
+    <div class="tf-head" style="margin-bottom:28px;">
+      <div class="sec-eyebrow" style="color:var(--accent-lt);"><span style="color:var(--accent-lt);">Client testimonials</span></div>
+      <h2 class="sec-h" style="color:#fff;">What our clients say</h2>
+    </div>
+    <div class="tf-track" id="tfTrack">
 
+      <div class="tf-slide active">
+        <div class="tf-left">
+          <div class="tf-quote-mark">&ldquo;</div>
+          <div class="tf-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="tf-text">The Code Labs delivered our platform on time and under budget. Their team brought genuine technical depth and kept us informed at every stage — exactly what a growing startup needs.</p>
+        </div>
+        <div class="tf-right">
+          <div class="tf-author">
+            <div class="tf-avatar">RS</div>
+            <div>
+              <div class="tf-name">Rahul Shah</div>
+              <div class="tf-role">CEO, TechVenture Ahmedabad</div>
+            </div>
+            <div class="tf-industry">SaaS</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tf-slide">
+        <div class="tf-left">
+          <div class="tf-quote-mark">&ldquo;</div>
+          <div class="tf-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="tf-text">From UI/UX to final deployment, the process was seamless. They understood our insurance portal requirements deeply and translated complex workflows into a clean, usable product.</p>
+        </div>
+        <div class="tf-right">
+          <div class="tf-author">
+            <div class="tf-avatar">PD</div>
+            <div>
+              <div class="tf-name">Priya Desai</div>
+              <div class="tf-role">Product Lead, InsureTech Co.</div>
+            </div>
+            <div class="tf-industry">Insurance</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tf-slide">
+        <div class="tf-left">
+          <div class="tf-quote-mark">&ldquo;</div>
+          <div class="tf-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="tf-text">Our mobile app has over 10,000 active users and runs without a hitch. The Code Labs built it right the first time, and their after-launch support has been outstanding.</p>
+        </div>
+        <div class="tf-right">
+          <div class="tf-author">
+            <div class="tf-avatar">AK</div>
+            <div>
+              <div class="tf-name">Amit Kumar</div>
+              <div class="tf-role">Founder, EduReach</div>
+            </div>
+            <div class="tf-industry">Education</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tf-slide">
+        <div class="tf-left">
+          <div class="tf-quote-mark">&ldquo;</div>
+          <div class="tf-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="tf-text">We had a complex ERP integration requirement and The Code Labs nailed it. Professional team, clean code, and they were always available to address our concerns promptly.</p>
+        </div>
+        <div class="tf-right">
+          <div class="tf-author">
+            <div class="tf-avatar">MV</div>
+            <div>
+              <div class="tf-name">Manish Verma</div>
+              <div class="tf-role">CTO, ManufactPro</div>
+            </div>
+            <div class="tf-industry">Manufacturing</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="tf-controls">
+      <div class="tf-dots" id="tfDots">
+        <div class="tfdot active" onclick="tfGoTo(0)"></div>
+        <div class="tfdot" onclick="tfGoTo(1)"></div>
+        <div class="tfdot" onclick="tfGoTo(2)"></div>
+        <div class="tfdot" onclick="tfGoTo(3)"></div>
+      </div>
+      <div class="tf-arrows">
+        <div class="tfarrow" onclick="tfPrev()"><i class="fa-solid fa-arrow-left"></i></div>
+        <div class="tfarrow" onclick="tfNext()"><i class="fa-solid fa-arrow-right"></i></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <svg class="section-circuit" viewBox="0 0 1200 600" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <!-- Left spine continuous (320) -->
+    <path d="M320 0 V600" stroke="#078AA7" stroke-width="1" opacity=".06" stroke-linecap="round"/>
+    <path class="df" d="M320 0 V600" stroke="#078AA7" stroke-width=".8" opacity=".08" stroke-linecap="round"/>
+    <path d="M320 180 H420" stroke="#078AA7" stroke-width=".8" opacity=".05" stroke-linecap="round"/>
+    <path d="M320 420 H400" stroke="#078AA7" stroke-width=".8" opacity=".04" stroke-linecap="round"/>
+    <!-- Right spine continuous (900) -->
+    <path d="M900 0 V600" stroke="#078AA7" stroke-width="1" opacity=".05" stroke-linecap="round"/>
+    <path class="df df2" d="M900 0 V600" stroke="#078AA7" stroke-width=".8" opacity=".06" stroke-linecap="round"/>
+    <path d="M900 200 H810" stroke="#078AA7" stroke-width=".8" opacity=".04" stroke-linecap="round"/>
+    <path d="M900 450 H830" stroke="#078AA7" stroke-width=".8" opacity=".04" stroke-linecap="round"/>
+    <!-- Junction nodes -->
+    <circle cx="320" cy="180" r="2.5" fill="none" stroke="#078AA7" stroke-width=".8" opacity=".08" class="nb"/>
+    <circle cx="320" cy="420" r="2.5" fill="none" stroke="#078AA7" stroke-width=".8" opacity=".06" class="nb3"/>
+    <circle cx="900" cy="200" r="2.5" fill="none" stroke="#078AA7" stroke-width=".8" opacity=".07" class="nb2"/>
+    <circle cx="900" cy="450" r="2.5" fill="none" stroke="#078AA7" stroke-width=".8" opacity=".05" class="nb"/>
+    <rect x="400" y="175" width="16" height="8" rx="2" fill="none" stroke="rgba(7,138,167,0.05)" stroke-width=".6"/>
+  </svg>
+  <div class="wrap">
+    <div class="services-head reveal">
+      <div class="sec-eyebrow">Services</div>
+      <h2 class="sec-h">Everything you need<br>to build &amp; grow</h2>
+    </div>
+    <div class="svc-grid">
+      <div class="svc reveal rd1"><div class="svc-inner">
+        <div class="svc-top"><div class="svc-num">01 ——</div><div class="svc-icon"><i class="fa-solid fa-code"></i></div></div>
+        <h3>Web development</h3>
+        <p>Responsive, secure, scalable web apps that handle real-world traffic and drive measurable growth.</p>
+      </div></div>
+      <div class="svc reveal rd2"><div class="svc-inner">
+        <div class="svc-top"><div class="svc-num">02 ——</div><div class="svc-icon"><i class="fa-solid fa-pen-ruler"></i></div></div>
+        <h3>UI / UX design</h3>
+        <p>User-focused digital experiences that convert visitors through smart, intuitive design decisions.</p>
+      </div></div>
+      <div class="svc reveal rd3"><div class="svc-inner">
+        <div class="svc-top"><div class="svc-num">03 ——</div><div class="svc-icon"><i class="fa-solid fa-mobile-screen"></i></div></div>
+        <h3>Mobile apps</h3>
+        <p>Custom iOS &amp; Android apps combining polished design with reliable cross-device performance.</p>
+      </div></div>
+      <div class="svc reveal rd1"><div class="svc-inner">
+        <div class="svc-top"><div class="svc-num">04 ——</div><div class="svc-icon"><i class="fa-solid fa-layer-group"></i></div></div>
+        <h3>Content management</h3>
+        <p>Intuitive CMS solutions giving your team full content control without technical complexity.</p>
+      </div></div>
+      <div class="svc reveal rd2"><div class="svc-inner">
+        <div class="svc-top"><div class="svc-num">05 ——</div><div class="svc-icon"><i class="fa-solid fa-shield-halved"></i></div></div>
+        <h3>Security solutions</h3>
+        <p>Multi-layered security practices baked into every layer of your stack from day one.</p>
+      </div></div>
+      <div class="svc reveal rd3"><div class="svc-inner">
+        <div class="svc-top"><div class="svc-num">06 ——</div><div class="svc-icon"><i class="fa-solid fa-plug-circle-bolt"></i></div></div>
+        <h3>System integration</h3>
+        <p>Seamlessly connecting your tools, APIs, and platforms to eliminate silos and boost efficiency.</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process" id="process">
+  <div class="proc-blob proc-b1"></div>
+  <div class="proc-blob proc-b2"></div>
+  <div class="proc-blob proc-b3"></div>
+  <div class="proc-shimmer"></div>
+  <svg class="proc-circuit-bg" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <filter id="pglow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    </defs>
+    <!-- Left network -->
+    <path d="M0 300 H120 V180 H320" stroke="#078AA7" stroke-width="1.2" opacity=".15" stroke-linecap="round"/>
+    <path d="M0 300 H100 V420 H280" stroke="#064163" stroke-width="1.2" opacity=".12" stroke-linecap="round"/>
+    <path d="M120 180 V80 H260" stroke="#078AA7" stroke-width=".8" opacity=".1" stroke-linecap="round"/>
+    <path d="M100 420 V520 H220" stroke="#064163" stroke-width=".8" opacity=".08" stroke-linecap="round"/>
+    <path class="df" d="M0 300 H120 V180 H320" stroke="#4dd4ea" stroke-width="1" opacity=".2" stroke-linecap="round"/>
+    <path class="df df2" d="M0 300 H100 V420 H280" stroke="#4dd4ea" stroke-width=".8" opacity=".12" stroke-linecap="round"/>
+
+    <!-- Right network -->
+    <path d="M1200 400 H1060 V260 H880" stroke="#078AA7" stroke-width="1.2" opacity=".15" stroke-linecap="round"/>
+    <path d="M1200 400 H1080 V540 H920" stroke="#064163" stroke-width="1.2" opacity=".12" stroke-linecap="round"/>
+    <path d="M1060 260 V140 H940" stroke="#078AA7" stroke-width=".8" opacity=".1" stroke-linecap="round"/>
+    <path d="M1080 540 V660 H960" stroke="#064163" stroke-width=".8" opacity=".08" stroke-linecap="round"/>
+    <path class="df" d="M1200 400 H1060 V260 H880" stroke="#4dd4ea" stroke-width="1" opacity=".18" stroke-linecap="round"/>
+    <path class="df df2" d="M1200 400 H1080 V540 H920" stroke="#4dd4ea" stroke-width=".8" opacity=".1" stroke-linecap="round"/>
+
+    <!-- Top scattered traces -->
+    <path d="M500 0 V60 H620" stroke="#078AA7" stroke-width=".8" opacity=".08" stroke-linecap="round"/>
+    <path d="M700 0 V80 H800" stroke="#064163" stroke-width=".8" opacity=".06" stroke-linecap="round"/>
+
+    <!-- Bottom scattered traces -->
+    <path d="M400 800 V720 H540" stroke="#078AA7" stroke-width=".8" opacity=".08" stroke-linecap="round"/>
+    <path d="M750 800 V740 H850" stroke="#064163" stroke-width=".8" opacity=".06" stroke-linecap="round"/>
+
+    <!-- Left junction nodes -->
+    <circle cx="120" cy="180" r="5" fill="#040e1a" stroke="#078AA7" stroke-width="1.2" filter="url(#pglow)" class="nb" opacity=".4"/>
+    <circle cx="100" cy="420" r="5" fill="#040e1a" stroke="#078AA7" stroke-width="1.2" filter="url(#pglow)" class="nb2" opacity=".35"/>
+    <circle cx="320" cy="180" r="6" fill="rgba(7,138,167,0.08)" stroke="#078AA7" stroke-width="1.2" class="nb3" opacity=".3"/>
+    <circle cx="280" cy="420" r="6" fill="rgba(7,138,167,0.08)" stroke="#078AA7" stroke-width="1.2" class="nb" opacity=".25"/>
+    <circle cx="120" cy="180" r="12" fill="rgba(7,138,167,0.05)" class="nb3"/>
+
+    <!-- Right junction nodes -->
+    <circle cx="1060" cy="260" r="5" fill="#040e1a" stroke="#078AA7" stroke-width="1.2" filter="url(#pglow)" class="nb2" opacity=".4"/>
+    <circle cx="1080" cy="540" r="5" fill="#040e1a" stroke="#078AA7" stroke-width="1.2" filter="url(#pglow)" class="nb" opacity=".35"/>
+    <circle cx="880" cy="260" r="6" fill="rgba(7,138,167,0.08)" stroke="#078AA7" stroke-width="1.2" class="nb" opacity=".3"/>
+    <circle cx="920" cy="540" r="6" fill="rgba(7,138,167,0.08)" stroke="#078AA7" stroke-width="1.2" class="nb3" opacity=".25"/>
+    <circle cx="1060" cy="260" r="12" fill="rgba(7,138,167,0.05)" class="nb2"/>
+
+    <!-- Left chip -->
+    <g opacity=".25">
+      <rect x="240" y="68" width="28" height="14" rx="3" fill="#040e1a" stroke="rgba(7,138,167,0.4)" stroke-width=".8"/>
+      <text x="254" y="78" text-anchor="middle" font-family="IBM Plex Mono" font-size="6" fill="rgba(7,138,167,0.6)">R1</text>
+    </g>
+    <g opacity=".2">
+      <rect x="200" y="510" width="28" height="14" rx="3" fill="#040e1a" stroke="rgba(7,138,167,0.35)" stroke-width=".8"/>
+      <text x="214" y="520" text-anchor="middle" font-family="IBM Plex Mono" font-size="6" fill="rgba(7,138,167,0.5)">C2</text>
+    </g>
+
+    <!-- Right chip -->
+    <g opacity=".25">
+      <rect x="920" y="128" width="28" height="14" rx="3" fill="#040e1a" stroke="rgba(7,138,167,0.4)" stroke-width=".8"/>
+      <text x="934" y="138" text-anchor="middle" font-family="IBM Plex Mono" font-size="6" fill="rgba(7,138,167,0.6)">U1</text>
+    </g>
+    <g opacity=".2">
+      <rect x="940" y="650" width="28" height="14" rx="3" fill="#040e1a" stroke="rgba(7,138,167,0.35)" stroke-width=".8"/>
+      <text x="954" y="660" text-anchor="middle" font-family="IBM Plex Mono" font-size="6" fill="rgba(7,138,167,0.5)">IC</text>
+    </g>
+
+    <!-- Connecting spines top to bottom -->
+    <path d="M320 0 V800" stroke="#078AA7" stroke-width="1" opacity=".1" stroke-linecap="round"/>
+    <path d="M900 0 V800" stroke="#078AA7" stroke-width="1" opacity=".08" stroke-linecap="round"/>
+    <path class="df" d="M320 0 V800" stroke="#4dd4ea" stroke-width=".8" opacity=".1" stroke-linecap="round"/>
+    <path class="df df2" d="M900 0 V800" stroke="#4dd4ea" stroke-width=".8" opacity=".08" stroke-linecap="round"/>
+    <!-- Horizontal branches from spines -->
+    <path d="M320 120 H400" stroke="#078AA7" stroke-width=".8" opacity=".12" stroke-linecap="round"/>
+    <path d="M320 680 H420" stroke="#078AA7" stroke-width=".8" opacity=".1" stroke-linecap="round"/>
+    <path d="M900 160 H820" stroke="#078AA7" stroke-width=".8" opacity=".1" stroke-linecap="round"/>
+    <path d="M900 640 H810" stroke="#078AA7" stroke-width=".8" opacity=".08" stroke-linecap="round"/>
+    <!-- Spine junction nodes -->
+    <circle cx="320" cy="120" r="3" fill="#040e1a" stroke="#078AA7" stroke-width="1" opacity=".25" class="nb" filter="url(#pglow)"/>
+    <circle cx="320" cy="680" r="3" fill="#040e1a" stroke="#078AA7" stroke-width="1" opacity=".2" class="nb3" filter="url(#pglow)"/>
+    <circle cx="900" cy="160" r="3" fill="#040e1a" stroke="#078AA7" stroke-width="1" opacity=".22" class="nb2" filter="url(#pglow)"/>
+    <circle cx="900" cy="640" r="3" fill="#040e1a" stroke="#078AA7" stroke-width="1" opacity=".18" class="nb" filter="url(#pglow)"/>
+    <!-- Scattered small nodes -->
+    <circle cx="400" cy="120" r="2.5" fill="none" stroke="rgba(7,138,167,0.2)" stroke-width=".8" class="nb2"/>
+    <circle cx="620" cy="60" r="2" fill="none" stroke="rgba(7,138,167,0.15)" stroke-width=".8" class="nb"/>
+    <circle cx="800" cy="80" r="2" fill="none" stroke="rgba(7,138,167,0.12)" stroke-width=".8" class="nb3"/>
+    <circle cx="540" cy="720" r="2.5" fill="none" stroke="rgba(7,138,167,0.15)" stroke-width=".8" class="nb"/>
+    <circle cx="810" cy="640" r="2" fill="none" stroke="rgba(7,138,167,0.12)" stroke-width=".8" class="nb2"/>
+  </svg>
+  <div class="proc-line proc-line1"></div>
+  <div class="proc-line proc-line2"></div>
+  <div class="proc-line proc-line3"></div>
+  <div class="wrap">
+    <div class="process-head reveal">
+      <div class="sec-eyebrow">How we work</div>
+      <h2 class="sec-h">From concept to completion</h2>
+      <p class="sec-sub">A transparent, structured process — with clear communication at every stage.</p>
+    </div>
+    <div class="proc-timeline">
+      <div class="pstep reveal">
+        <div class="pstep-icon">
+          <div class="pstep-icon-circle"><i class="fa-solid fa-magnifying-glass"></i></div>
+          <div class="pstep-badge"><span>Step</span><span>01</span></div>
+        </div>
+        <div class="pstep-bridge"></div>
+        <div class="pstep-content">
+          <h3>Discovery</h3>
+          <p>We start by understanding your business, goals, and constraints — deeply, not just on the surface.</p>
+          <div class="pstep-tags"><span class="pstep-tag">Stakeholder interviews</span><span class="pstep-tag">Requirements audit</span></div>
+        </div>
+      </div>
+      <div class="proc-connector"></div>
+      <div class="pstep reveal rd1">
+        <div class="pstep-icon">
+          <div class="pstep-icon-circle"><i class="fa-solid fa-map"></i></div>
+          <div class="pstep-badge"><span>Step</span><span>02</span></div>
+        </div>
+        <div class="pstep-bridge"></div>
+        <div class="pstep-content">
+          <h3>Planning</h3>
+          <p>Architecture decisions, detailed roadmaps, and timelines — agreed upfront, built to be followed.</p>
+          <div class="pstep-tags"><span class="pstep-tag">Tech stack selection</span><span class="pstep-tag">Sprint roadmap</span></div>
+        </div>
+      </div>
+      <div class="proc-connector"></div>
+      <div class="pstep reveal rd2">
+        <div class="pstep-icon">
+          <div class="pstep-icon-circle"><i class="fa-solid fa-code"></i></div>
+          <div class="pstep-badge"><span>Step</span><span>03</span></div>
+        </div>
+        <div class="pstep-bridge"></div>
+        <div class="pstep-content">
+          <h3>Execution</h3>
+          <p>Iterative builds with full visibility — every sprint reviewed, every decision documented.</p>
+          <div class="pstep-tags"><span class="pstep-tag">Agile sprints</span><span class="pstep-tag">Code reviews</span><span class="pstep-tag">CI/CD</span></div>
+        </div>
+      </div>
+      <div class="proc-connector"></div>
+      <div class="pstep reveal rd3">
+        <div class="pstep-icon">
+          <div class="pstep-icon-circle"><i class="fa-solid fa-rocket"></i></div>
+          <div class="pstep-badge"><span>Step</span><span>04</span></div>
+        </div>
+        <div class="pstep-bridge"></div>
+        <div class="pstep-content">
+          <h3>Delivery</h3>
+          <p>Thorough testing, smooth handover, and long-term support that does not end at launch.</p>
+          <div class="pstep-tags"><span class="pstep-tag">QA testing</span><span class="pstep-tag">Deployment</span><span class="pstep-tag">Ongoing support</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="proc-strip">
+      <p>Every project is different. We adapt our process to fit <strong>your team's workflow, timeline, and communication style.</strong></p>
+      <a href="#contact" class="proc-btn">Start a project &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact rich-circuit rc-light" id="contact">
+  <div class="rc-blob rc-b1"></div>
+  <div class="rc-blob rc-b2"></div>
+  <div class="rc-blob rc-b3"></div>
+  <div class="rc-shimmer"></div>
+  <div class="rc-line rc-l1"></div>
+  <div class="rc-line rc-l2"></div>
+  <div class="rc-line rc-l3"></div>
+  <svg class="rc-circuit" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <filter id="cglow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    </defs>
+    <!-- Left network -->
+    <path d="M0 300 H100 V160 H300" stroke="#078AA7" stroke-width="1.2" opacity=".08" stroke-linecap="round"/>
+    <path d="M0 300 H80 V440 H260" stroke="#064163" stroke-width="1.2" opacity=".06" stroke-linecap="round"/>
+    <path d="M100 160 V60 H240" stroke="#078AA7" stroke-width=".8" opacity=".05" stroke-linecap="round"/>
+    <path d="M80 440 V560 H200" stroke="#064163" stroke-width=".8" opacity=".04" stroke-linecap="round"/>
+    <path d="M300 160 H380 V240" stroke="#078AA7" stroke-width=".8" opacity=".05" stroke-linecap="round"/>
+    <path class="df" d="M0 300 H100 V160 H300" stroke="#078AA7" stroke-width=".8" opacity=".06" stroke-linecap="round"/>
+    <path class="df df2" d="M0 300 H80 V440 H260" stroke="#078AA7" stroke-width=".6" opacity=".04" stroke-linecap="round"/>
+
+    <!-- Right network -->
+    <path d="M1200 350 H1100 V200 H920" stroke="#078AA7" stroke-width="1.2" opacity=".07" stroke-linecap="round"/>
+    <path d="M1200 350 H1120 V500 H960" stroke="#064163" stroke-width="1.2" opacity=".05" stroke-linecap="round"/>
+    <path d="M1100 200 V100 H980" stroke="#078AA7" stroke-width=".8" opacity=".04" stroke-linecap="round"/>
+    <path d="M1120 500 V620 H1000" stroke="#064163" stroke-width=".8" opacity=".03" stroke-linecap="round"/>
+    <path d="M920 200 H860 V280" stroke="#078AA7" stroke-width=".8" opacity=".04" stroke-linecap="round"/>
+    <path class="df" d="M1200 350 H1100 V200 H920" stroke="#078AA7" stroke-width=".8" opacity=".05" stroke-linecap="round"/>
+    <path class="df df2" d="M1200 350 H1120 V500 H960" stroke="#078AA7" stroke-width=".6" opacity=".03" stroke-linecap="round"/>
+
+    <!-- Top traces -->
+    <path d="M480 0 V50 H580" stroke="#078AA7" stroke-width=".8" opacity=".04" stroke-linecap="round"/>
+    <path d="M720 0 V60 H800" stroke="#064163" stroke-width=".8" opacity=".03" stroke-linecap="round"/>
+
+    <!-- Bottom traces -->
+    <path d="M420 800 V740 H520" stroke="#078AA7" stroke-width=".8" opacity=".04" stroke-linecap="round"/>
+    <path d="M780 800 V750 H860" stroke="#064163" stroke-width=".8" opacity=".03" stroke-linecap="round"/>
+
+    <!-- Left nodes -->
+    <circle cx="100" cy="160" r="4" fill="none" stroke="#078AA7" stroke-width="1" opacity=".1" class="nb" filter="url(#cglow)"/>
+    <circle cx="80" cy="440" r="4" fill="none" stroke="#078AA7" stroke-width="1" opacity=".08" class="nb2" filter="url(#cglow)"/>
+    <circle cx="300" cy="160" r="5" fill="rgba(7,138,167,0.03)" stroke="#078AA7" stroke-width="1" opacity=".08" class="nb3"/>
+    <circle cx="260" cy="440" r="5" fill="rgba(7,138,167,0.03)" stroke="#078AA7" stroke-width="1" opacity=".06" class="nb"/>
+    <circle cx="100" cy="160" r="10" fill="rgba(7,138,167,0.02)" class="nb3"/>
+    <circle cx="240" cy="60" r="3" fill="none" stroke="#078AA7" stroke-width=".8" opacity=".05" class="nb2"/>
+    <circle cx="380" cy="240" r="3" fill="none" stroke="#078AA7" stroke-width=".8" opacity=".04" class="nb"/>
+    <circle cx="200" cy="560" r="3" fill="none" stroke="#078AA7" stroke-width=".8" opacity=".04" class="nb3"/>
+
+    <!-- Right nodes -->
+    <circle cx="1100" cy="200" r="4" fill="none" stroke="#078AA7" stroke-width="1" opacity=".08" class="nb2" filter="url(#cglow)"/>
+    <circle cx="1120" cy="500" r="4" fill="none" stroke="#078AA7" stroke-width="1" opacity=".06" class="nb" filter="url(#cglow)"/>
+    <circle cx="920" cy="200" r="5" fill="rgba(7,138,167,0.03)" stroke="#078AA7" stroke-width="1" opacity=".07" class="nb"/>
+    <circle cx="960" cy="500" r="5" fill="rgba(7,138,167,0.03)" stroke="#078AA7" stroke-width="1" opacity=".05" class="nb3"/>
+    <circle cx="1100" cy="200" r="10" fill="rgba(7,138,167,0.02)" class="nb2"/>
+    <circle cx="980" cy="100" r="3" fill="none" stroke="#078AA7" stroke-width=".8" opacity=".04" class="nb"/>
+    <circle cx="860" cy="280" r="3" fill="none" stroke="#078AA7" stroke-width=".8" opacity=".04" class="nb2"/>
+    <circle cx="1000" cy="620" r="3" fill="none" stroke="#078AA7" stroke-width=".8" opacity=".03" class="nb3"/>
+
+    <!-- Chips -->
+    <g opacity=".06">
+      <rect x="220" y="52" width="22" height="12" rx="2" fill="none" stroke="#078AA7" stroke-width=".8"/>
+    </g>
+    <g opacity=".05">
+      <rect x="960" y="92" width="22" height="12" rx="2" fill="none" stroke="#078AA7" stroke-width=".8"/>
+    </g>
+    <g opacity=".04">
+      <rect x="180" y="552" width="20" height="10" rx="2" fill="none" stroke="#078AA7" stroke-width=".6"/>
+    </g>
+    <g opacity=".04">
+      <rect x="980" y="612" width="20" height="10" rx="2" fill="none" stroke="#078AA7" stroke-width=".6"/>
+    </g>
+
+    <!-- Scattered dots -->
+    <circle cx="580" cy="50" r="2" fill="none" stroke="#078AA7" stroke-width=".6" opacity=".04" class="nb"/>
+    <circle cx="800" cy="60" r="2" fill="none" stroke="#078AA7" stroke-width=".6" opacity=".03" class="nb2"/>
+    <circle cx="520" cy="740" r="2" fill="none" stroke="#078AA7" stroke-width=".6" opacity=".04" class="nb3"/>
+    <circle cx="860" cy="750" r="2" fill="none" stroke="#078AA7" stroke-width=".6" opacity=".03" class="nb"/>
+  </svg>
+  <div class="wrap">
+    <div class="contact-head reveal">
+      <div class="sec-eyebrow">Contact</div>
+      <h2 class="sec-h">Let's start a conversation</h2>
+      <p class="sec-sub">Get in touch and let's talk about what you're building.</p>
+    </div>
+    <div class="contact-grid reveal">
+      <div class="contact-info">
+        <div class="ci-eyebrow">Contact us</div>
+        <div class="ci-head">Get in touch<br>directly</div>
+        <div class="ci-sub">We're based in Ahmedabad and work with clients across India and internationally.</div>
+        <div class="ci-row">
+          <div class="ci-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div><div class="ci-k">Address</div><div class="ci-v">512 Sukhsagar Complex, Nr. Fortune Landmark Hotel,<br>Usmanpura, Ahmedabad, Gujarat 380013</div></div>
+        </div>
+        <div class="ci-row">
+          <div class="ci-icon"><i class="fa-regular fa-envelope"></i></div>
+          <div><div class="ci-k">Email</div><div class="ci-v"><a href="mailto:info@thecodelabs.co.in">info@thecodelabs.co.in</a></div></div>
+        </div>
+        <div class="ci-row">
+          <div class="ci-icon"><i class="fa-solid fa-phone"></i></div>
+          <div><div class="ci-k">Phone</div><div class="ci-v"><a href="tel:+919327652938">+91 (932) 765-2938</a></div></div>
+        </div>
+        <div class="hours-grid">
+          <div class="hcard"><div class="day">Mon – Fri</div><div class="time">10AM – 8PM</div></div>
+          <div class="hcard"><div class="day">Saturday</div><div class="time">10AM – 3PM</div></div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <div class="form-title">Send us a message</div>
+        <form id="contactForm">
+          <div class="form-row">
+            <div class="fg">
+              <label>First name</label>
+              <div class="iw"><i class="fa-regular fa-user"></i><input type="text" id="f_fn"><div class="err-msg" id="e_fn"><i class="fa-solid fa-circle-exclamation"></i>&nbsp;Required</div></div>
+            </div>
+            <div class="fg">
+              <label>Last name</label>
+              <div class="iw"><i class="fa-regular fa-user"></i><input type="text" id="f_ln"><div class="err-msg" id="e_ln"><i class="fa-solid fa-circle-exclamation"></i>&nbsp;Required</div></div>
+            </div>
+          </div>
+          <div class="fg">
+            <label>Email address</label>
+            <div class="iw"><i class="fa-regular fa-envelope"></i><input type="email" id="f_em"><div class="err-msg" id="e_em"><i class="fa-solid fa-circle-exclamation"></i>&nbsp;Valid email required</div></div>
+          </div>
+          <div class="fg">
+            <label>Phone number</label>
+            <div class="iw"><i class="fa-solid fa-phone"></i><input type="tel" id="f_ph"></div>
+          </div>
+          <div class="fg">
+            <label>Service interested in</label>
+            <div class="iw"><i class="fa-solid fa-layer-group"></i>
+              <select id="f_svc" style="padding-left:40px;">
+                <option value="">Select a service&hellip;</option>
+                <option>Web development</option>
+                <option>UI / UX design</option>
+                <option>Mobile app development</option>
+                <option>Content management</option>
+                <option>Security solutions</option>
+                <option>System integration</option>
+              </select>
+            </div>
+          </div>
+          <div class="fg">
+            <label>Tell us about your project</label>
+            <div class="iw ta"><i class="fa-regular fa-comment-dots"></i>
+              <textarea id="f_msg" style="padding-left:40px;padding-top:12px;"></textarea>
+              <div class="err-msg" id="e_msg"><i class="fa-solid fa-circle-exclamation"></i>&nbsp;Required</div>
+            </div>
+          </div>
+          <button class="submit-btn" type="submit"><i class="fa-solid fa-paper-plane"></i>Send message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <svg class="section-circuit" viewBox="0 0 1200 400" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <!-- Left spine from contact (160) fading out -->
+    <path d="M160 0 V100 H280 V350" stroke="#078AA7" stroke-width="1" opacity=".08" stroke-linecap="round"/>
+    <path class="df" d="M160 0 V100 H280 V350" stroke="#4dd4ea" stroke-width=".8" opacity=".1" stroke-linecap="round"/>
+    <path d="M280 220 H360" stroke="#078AA7" stroke-width=".8" opacity=".06" stroke-linecap="round"/>
+    <!-- Right spine from contact (1040) fading out -->
+    <path d="M1040 0 V80 H940 V320" stroke="#078AA7" stroke-width="1" opacity=".06" stroke-linecap="round"/>
+    <path class="df df2" d="M1040 0 V80 H940 V320" stroke="#4dd4ea" stroke-width=".8" opacity=".08" stroke-linecap="round"/>
+    <path d="M940 200 H860" stroke="#078AA7" stroke-width=".8" opacity=".05" stroke-linecap="round"/>
+    <!-- Junction nodes -->
+    <circle cx="160" cy="100" r="3" fill="#040e1a" stroke="#078AA7" stroke-width="1" opacity=".15" class="nb"/>
+    <circle cx="280" cy="100" r="3" fill="#040e1a" stroke="#078AA7" stroke-width="1" opacity=".12" class="nb3"/>
+    <circle cx="280" cy="220" r="2.5" fill="rgba(7,138,167,0.05)" stroke="#078AA7" stroke-width=".8" opacity=".1" class="nb2"/>
+    <circle cx="1040" cy="80" r="3" fill="#040e1a" stroke="#078AA7" stroke-width="1" opacity=".12" class="nb2"/>
+    <circle cx="940" cy="80" r="3" fill="#040e1a" stroke="#078AA7" stroke-width="1" opacity=".1" class="nb"/>
+    <circle cx="940" cy="200" r="2.5" fill="rgba(7,138,167,0.05)" stroke="#078AA7" stroke-width=".8" opacity=".08" class="nb3"/>
+  </svg>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">
+          <img src="img/Logo-white.svg" alt="The Code Labs">
+          <span class="foot-logo-name gilroy">the <span>code</span> labs</span>
+        </div>
+        <p class="foot-desc">Transforming ideas into intelligent solutions. Custom software for startups and growing businesses across India.</p>
+        <!--
+		<div class="foot-social">
+          <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+		-->
+      </div>
+      <div class="foot-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Web development</a></li>
+          <li><a href="#services">UI / UX design</a></li>
+          <li><a href="#services">Mobile apps</a></li>
+          <li><a href="#services">Content management</a></li>
+          <li><a href="#services">Security solutions</a></li>
+          <li><a href="#services">System integration</a></li>
+        </ul>
+      </div>
+	  <div class="foot-col">
+        <h4>Industries</h4>
+        <ul>
+          <li><a href="#">Engineering</a></li>
+          <li><a href="#">Insurance</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Construction</a></li>
+          <li><a href="#">Manufacturing</a></li>
+          <li><a href="#">Technology</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#process">How we work</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; <span id="copyrightYear"></span> The Code Labs. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
-
 </html>
